@@ -1,11 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * main - assign random number to the variable n each time it is executed.
+ * main - Prints a random number and states whether
+ * it is positive, negative, or zero.
  *
- * Returns: Always 0.
+ * * Return: Always 0.
  */
+
 int main(void)
 
 {
@@ -22,4 +25,5 @@ int main(void)
 		printf("%d is zero\n", n);
 
 	return (0);
+
 }
