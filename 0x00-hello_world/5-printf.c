@@ -1,27 +1,16 @@
-nclude<stdio.h>    
+#include <stdio.h>
+/**
+ *  main - Prints "with proper grammar, but the outcome is
+ * a piece of art," followed by a new line.
+ *
+ * Return: Always 0.
+ */
 
-int main(){    
+int main(void)
 
-	int x=0,y=0,result=0;  
+{
 
-	  
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 
-	printf("enter first number:");  
-
-	scanf("%d",&x);  
-
-	printf("enter second number:");  
-
-	scanf("%d",&y);  
-
-	  
-
-	result=x+y;  
-
-	printf("sum of 2 numbers:%d ",result);  
-
-	  
-
-	return 0;  
-
-}    
+	return (0);
+}

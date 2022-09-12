@@ -1,0 +1,23 @@
+#include <stdio.h>                                                                                                                     
+
+                                                                                                                                       
+
+/**                                                                                                                                    
+
+ * main - entry point                                                                                                                  
+
+ *                                                                                                                                     
+
+ * Returns: Alwaya 0 (Successful)                                                                                                      
+
+ */                                                                                                                                    
+
+int main(void)                                                                                                                         
+
+{                                                                                                                                      
+
+        puts("\"Programming islike building a multigual puzzle");                                                  
+                                                                                                                                       
+        Return (0);                                                                                                                    
+
+}                                                                                                                                      
