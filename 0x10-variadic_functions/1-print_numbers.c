@@ -41,12 +41,10 @@ void print_strings(const char *separator, const unsigned int n, ...)
  * @s: string to be used
  * Return: pointer to @s
  */
-
 char *make_nil(char *s)
 
 {
 	if (s == NULL)
 		s = "(nil)";
-
 	return (s);
 }
